@@ -73,10 +73,13 @@ function restar(numero1, numero2){
 
 document.querySelector('#resetear').onclick = function(event){
     
-    numero1.value = " ";
-    numero2.value = " ";
-    operador.value =" ";
-    resultado.value = " ";
+    numero1.value = "";
+    numero1.placeholder ="Inserte un número";
+    numero2.value = "";
+    numero2.placeholder = "Inserte un número";
+    operador.value ="";
+    operador.placeholder ="Ingresa + o -"
+    resultado.value = "Se mostrara el Resultado";
 
     event.preventDefault();
 }
