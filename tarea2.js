@@ -47,7 +47,7 @@ function calcularOperacion(){
  
         const numero1 = Number(document.querySelector('#numero1').value);
         const numero2 = Number(document.querySelector('#numero2').value);
-        const operador = document.querySelector('#operador').value;
+        let operador = document.querySelector('#operador').value;
 
     
     let calc;
